@@ -2,16 +2,15 @@
 
 **Project (Jira, "My Scrum Space"):** ELT & Self-Service Analytics
 **Duration:** 2 sprints, 1 week each
-**Team:** Santosh Hiremath (solo — self-organized, not a claimed team project)
+**Team:** Santosh Hiremath (solo, self-organized)
 
 This plan restructures a project that was actually built (see
 `elt-selfservice-analytics/` — 6 source modules, 23 tests, real CI) into
-a genuine sprint-based backlog: real epics, real user stories with
-acceptance criteria and story points, a real sprint goal per sprint, and
-an honest retro reflecting what actually happened during the build —
-including the one real bug that was found and fixed. Nothing here is
-invented drama; the story points and acceptance criteria are written
-against work that was genuinely done and tested.
+a sprint-based backlog: epics, user stories with acceptance
+criteria and story points, a sprint goal per sprint, and a retro
+reflecting what happened during the build, including the one bug that
+was found and fixed. The story points and acceptance criteria are
+written against work that was done and tested.
 
 Copy this into Jira as: one Epic per section below, one Story per
 bullet, sized with the story points shown. Two sprints, sprint goals as
@@ -123,10 +122,9 @@ data, with a business-usable threshold.
   - Acceptance criteria for the fix: AUC lands in a genuine, non-
     suspicious 0.55–0.65 range, verified stable across at least 3
     different random seeds (not just one lucky split).
-  - Status: Done. This is the single most important story in the whole
-    backlog to be honest about in an interview — it's a real example of
-    catching a broken predictive-modeling setup rather than shipping a
-    meaningless model.
+  - Status: Done. This is the most important story in the backlog — it
+    is an example of catching a broken predictive-modeling setup rather
+    than shipping a meaningless model.
 
 - **STORY-9: Business-meaningful threshold selection (not 0.5 default)** (2 pts)
   - Acceptance criteria: threshold chosen to hit ~50% recall rather than
@@ -174,12 +172,11 @@ data, with a business-usable threshold.
   of ready" checklist on STORY-1 asking "does this field have a real,
   checkable relationship to at least one other field" would have caught
   this a sprint earlier.
-- Story sizing (points) was assigned after the fact here, which is a
-  known limitation of a retroactive plan — in a live sprint, points
-  would be estimated by the team before work starts, and re-estimated at
-  the retro against actual effort. That real estimate-vs-actual
-  calibration loop is exactly the piece this retroactive plan cannot
-  reproduce, and is worth being upfront about if asked in an interview.
+- Story sizing (points) was assigned after the fact in this
+  retrospective plan. In a live sprint, points would be estimated by the
+  team before work starts and re-estimated at the retro against actual
+  effort; that estimate-vs-actual calibration loop is the next thing to
+  practice on a live sprint.
 
 **Velocity:** Sprint 1: 12 points. Sprint 2: 18 points (including 3
 points of unplanned bug-fix work — BUG-1 — pulled in mid-sprint after
